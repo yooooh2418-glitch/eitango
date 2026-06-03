@@ -1,0 +1,3390 @@
+[
+ {
+  "level": "基本",
+  "pattern": "主語+動詞+目的語",
+  "en": "I play tennis.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "play",
+    "jp": "する",
+    "role": "動詞"
+   },
+   {
+    "en": "tennis",
+    "jp": "テニスを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私はテニスをする。",
+  "point": "動詞→目的語の順",
+  "explain": "日本語は「テニスを→する」。英語は「する→テニスを(play tennis)」で、動詞が先・目的語が後ろ。",
+  "id": 1
+ },
+ {
+  "level": "基本",
+  "pattern": "主語+動詞+目的語",
+  "en": "I read a book.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "read",
+    "jp": "読む",
+    "role": "動詞"
+   },
+   {
+    "en": "a book",
+    "jp": "本を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は本を読む。",
+  "point": "動詞→目的語",
+  "explain": "「本を→読む」が英語では「read→a book」。動詞が先、目的語が後ろ。",
+  "id": 2
+ },
+ {
+  "level": "基本",
+  "pattern": "主語+動詞+目的語",
+  "en": "I like dogs.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "like",
+    "jp": "好きだ",
+    "role": "動詞"
+   },
+   {
+    "en": "dogs",
+    "jp": "犬が",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は犬が好きだ。",
+  "point": "「好き」も動詞、対象は後ろ",
+  "explain": "「犬が→好き」→英語は「like→dogs」。like(好き)を先に置くのがコツ。",
+  "id": 3
+ },
+ {
+  "level": "基本",
+  "pattern": "3単現のs",
+  "en": "She speaks English.",
+  "blocks": [
+   {
+    "en": "She",
+    "jp": "彼女は",
+    "role": "主語"
+   },
+   {
+    "en": "speaks",
+    "jp": "話す",
+    "role": "動詞"
+   },
+   {
+    "en": "English",
+    "jp": "英語を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "彼女は英語を話す。",
+  "point": "3人称単数は動詞にs",
+  "explain": "主語が She なので speak に s。並びは〈主語→動詞→目的語〉のまま。",
+  "id": 4
+ },
+ {
+  "level": "基本",
+  "pattern": "3単現のs",
+  "en": "He watches TV.",
+  "blocks": [
+   {
+    "en": "He",
+    "jp": "彼は",
+    "role": "主語"
+   },
+   {
+    "en": "watches",
+    "jp": "見る",
+    "role": "動詞"
+   },
+   {
+    "en": "TV",
+    "jp": "テレビを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "彼はテレビを見る。",
+  "point": "-chで終わる動詞は-es",
+  "explain": "watch→watches。順番は「見る→テレビを(watches TV)」。",
+  "id": 5
+ },
+ {
+  "level": "基本",
+  "pattern": "動詞+目的語+時",
+  "en": "I drink coffee every morning.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "drink",
+    "jp": "飲む",
+    "role": "動詞"
+   },
+   {
+    "en": "coffee",
+    "jp": "コーヒーを",
+    "role": "目的語"
+   },
+   {
+    "en": "every morning",
+    "jp": "毎朝",
+    "role": "時"
+   }
+  ],
+  "jp": "私は毎朝コーヒーを飲む。",
+  "point": "時は文の最後",
+  "explain": "「毎朝→コーヒーを→飲む」→英語は「drink→coffee→every morning」。時が最後にくる。",
+  "id": 6
+ },
+ {
+  "level": "基本",
+  "pattern": "動詞+目的語+時",
+  "en": "I study English every day.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "study",
+    "jp": "勉強する",
+    "role": "動詞"
+   },
+   {
+    "en": "English",
+    "jp": "英語を",
+    "role": "目的語"
+   },
+   {
+    "en": "every day",
+    "jp": "毎日",
+    "role": "時"
+   }
+  ],
+  "jp": "私は毎日英語を勉強する。",
+  "point": "時は文末",
+  "explain": "日本語は時が前(毎日)。英語は〈動詞→目的語→時〉で every day が最後。",
+  "id": 7
+ },
+ {
+  "level": "基本",
+  "pattern": "be動詞+補語",
+  "en": "I am a student.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "am",
+    "jp": "です",
+    "role": "動詞"
+   },
+   {
+    "en": "a student",
+    "jp": "学生",
+    "role": "補語"
+   }
+  ],
+  "jp": "私は学生です。",
+  "point": "be動詞「です」も動詞の位置",
+  "explain": "「学生→です」→英語は「am→a student」。be動詞(am/is/are)は主語の直後。",
+  "id": 8
+ },
+ {
+  "level": "基本",
+  "pattern": "be動詞+形容詞",
+  "en": "He is kind.",
+  "blocks": [
+   {
+    "en": "He",
+    "jp": "彼は",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "kind",
+    "jp": "親切",
+    "role": "補語"
+   }
+  ],
+  "jp": "彼は親切だ。",
+  "point": "be+形容詞=「~だ」",
+  "explain": "「親切→だ」→英語は「is→kind」。is が先、形容詞が後ろ。",
+  "id": 9
+ },
+ {
+  "level": "基本",
+  "pattern": "be動詞+補語(複数)",
+  "en": "They are teachers.",
+  "blocks": [
+   {
+    "en": "They",
+    "jp": "彼らは",
+    "role": "主語"
+   },
+   {
+    "en": "are",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "teachers",
+    "jp": "先生",
+    "role": "補語"
+   }
+  ],
+  "jp": "彼らは先生だ。",
+  "point": "複数主語は are",
+  "explain": "They→are。「先生→だ」が「are→teachers」。",
+  "id": 10
+ },
+ {
+  "level": "基本",
+  "pattern": "be from(出身)",
+  "en": "I am from Japan.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "am",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "from Japan",
+    "jp": "日本出身",
+    "role": "場所"
+   }
+  ],
+  "jp": "私は日本出身だ。",
+  "point": "be from ~=「~出身」",
+  "explain": "「日本→出身」→英語は「am→from Japan」。from が場所の前にくる。",
+  "id": 11
+ },
+ {
+  "level": "基本",
+  "pattern": "go to+場所",
+  "en": "I go to school.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "go",
+    "jp": "行く",
+    "role": "動詞"
+   },
+   {
+    "en": "to school",
+    "jp": "学校へ",
+    "role": "場所"
+   }
+  ],
+  "jp": "私は学校へ行く。",
+  "point": "「~へ」は to+場所(動詞の後)",
+  "explain": "「学校へ→行く」→英語は「go→to school」。動詞が先、to+場所が後ろ。to=「~へ」。",
+  "id": 12
+ },
+ {
+  "level": "基本",
+  "pattern": "go home(副詞)",
+  "en": "I go home.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "go",
+    "jp": "帰る",
+    "role": "動詞"
+   },
+   {
+    "en": "home",
+    "jp": "家に",
+    "role": "場所"
+   }
+  ],
+  "jp": "私は家に帰る。",
+  "point": "home は副詞、to は不要",
+  "explain": "「家に帰る」は go home。home は「家に」を表す副詞なので to を付けない（×go to home）。",
+  "id": 13
+ },
+ {
+  "level": "基本",
+  "pattern": "live in+場所",
+  "en": "I live in Tokyo.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "live",
+    "jp": "住んでいる",
+    "role": "動詞"
+   },
+   {
+    "en": "in Tokyo",
+    "jp": "東京に",
+    "role": "場所"
+   }
+  ],
+  "jp": "私は東京に住んでいる。",
+  "point": "「~に住む」は live in+場所",
+  "explain": "「東京に→住む」→英語は「live→in Tokyo」。in が場所の前。",
+  "id": 14
+ },
+ {
+  "level": "基本",
+  "pattern": "動詞+at+時刻",
+  "en": "I get up at seven.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "get up",
+    "jp": "起きる",
+    "role": "動詞"
+   },
+   {
+    "en": "at seven",
+    "jp": "7時に",
+    "role": "時"
+   }
+  ],
+  "jp": "私は7時に起きる。",
+  "point": "時刻は at+時(動詞の後)",
+  "explain": "「7時に→起きる」→英語は「get up→at seven」。at が時刻の前にくる。",
+  "id": 15
+ },
+ {
+  "level": "基本",
+  "pattern": "動詞+目的語+場所",
+  "en": "We play soccer in the park.",
+  "blocks": [
+   {
+    "en": "We",
+    "jp": "私たちは",
+    "role": "主語"
+   },
+   {
+    "en": "play",
+    "jp": "する",
+    "role": "動詞"
+   },
+   {
+    "en": "soccer",
+    "jp": "サッカーを",
+    "role": "目的語"
+   },
+   {
+    "en": "in the park",
+    "jp": "公園で",
+    "role": "場所"
+   }
+  ],
+  "jp": "私たちは公園でサッカーをする。",
+  "point": "目的語→場所 の順",
+  "explain": "「公園で→サッカーを→する」→英語は「play→soccer→in the park」。動詞→目的語→場所。",
+  "id": 16
+ },
+ {
+  "level": "基本",
+  "pattern": "動詞+目的語+場所",
+  "en": "She sings a song in her room.",
+  "blocks": [
+   {
+    "en": "She",
+    "jp": "彼女は",
+    "role": "主語"
+   },
+   {
+    "en": "sings",
+    "jp": "歌う",
+    "role": "動詞"
+   },
+   {
+    "en": "a song",
+    "jp": "歌を",
+    "role": "目的語"
+   },
+   {
+    "en": "in her room",
+    "jp": "部屋で",
+    "role": "場所"
+   }
+  ],
+  "jp": "彼女は部屋で歌を歌う。",
+  "point": "目的語→場所",
+  "explain": "日本語は場所が前(部屋で)。英語は「sings→a song→in her room」の順。",
+  "id": 17
+ },
+ {
+  "level": "基本",
+  "pattern": "動詞+場所",
+  "en": "I study at the library.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "study",
+    "jp": "勉強する",
+    "role": "動詞"
+   },
+   {
+    "en": "at the library",
+    "jp": "図書館で",
+    "role": "場所"
+   }
+  ],
+  "jp": "私は図書館で勉強する。",
+  "point": "場所は動詞の後、at+場所",
+  "explain": "「図書館で→勉強する」→英語は「study→at the library」。",
+  "id": 18
+ },
+ {
+  "level": "基本",
+  "pattern": "命令文",
+  "en": "Open the door.",
+  "blocks": [
+   {
+    "en": "Open",
+    "jp": "開けて",
+    "role": "動詞"
+   },
+   {
+    "en": "the door",
+    "jp": "ドアを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "ドアを開けて。",
+  "point": "命令文は動詞で始める（主語を言わない）",
+  "explain": "「ドアを→開けて」→英語は動詞 Open を文頭に。主語 you は省略する。",
+  "id": 19
+ },
+ {
+  "level": "基本",
+  "pattern": "否定の命令文",
+  "en": "Don't run here.",
+  "blocks": [
+   {
+    "en": "Don't",
+    "jp": "〜するな",
+    "role": "その他"
+   },
+   {
+    "en": "run",
+    "jp": "走る",
+    "role": "動詞"
+   },
+   {
+    "en": "here",
+    "jp": "ここで",
+    "role": "場所"
+   }
+  ],
+  "jp": "ここで走らないで。",
+  "point": "Don't+動詞の原形=「~するな」",
+  "explain": "禁止は Don't を文頭に。「ここで→走るな」→「Don't run→here」。",
+  "id": 20
+ },
+ {
+  "level": "基本",
+  "pattern": "現在進行形",
+  "en": "I am reading a book.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "am reading",
+    "jp": "読んでいる",
+    "role": "動詞"
+   },
+   {
+    "en": "a book",
+    "jp": "本を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は本を読んでいる。",
+  "point": "be動詞+~ing=「~している」",
+  "explain": "「読んでいる」は am reading（be+ing）。動詞は2語のかたまりで主語の直後。",
+  "id": 21
+ },
+ {
+  "level": "基本",
+  "pattern": "現在進行形",
+  "en": "She is cooking now.",
+  "blocks": [
+   {
+    "en": "She",
+    "jp": "彼女は",
+    "role": "主語"
+   },
+   {
+    "en": "is cooking",
+    "jp": "料理している",
+    "role": "動詞"
+   },
+   {
+    "en": "now",
+    "jp": "今",
+    "role": "時"
+   }
+  ],
+  "jp": "彼女は今料理している。",
+  "point": "主語に合わせて is+~ing",
+  "explain": "She なので is cooking。時(now)は文末。",
+  "id": 22
+ },
+ {
+  "level": "基本",
+  "pattern": "過去形(規則)",
+  "en": "I played soccer yesterday.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "played",
+    "jp": "した",
+    "role": "動詞"
+   },
+   {
+    "en": "soccer",
+    "jp": "サッカーを",
+    "role": "目的語"
+   },
+   {
+    "en": "yesterday",
+    "jp": "昨日",
+    "role": "時"
+   }
+  ],
+  "jp": "私は昨日サッカーをした。",
+  "point": "規則動詞は-ed、時は文末",
+  "explain": "play→played。「昨日 サッカーを した」→英語は「played→soccer→yesterday」。",
+  "id": 23
+ },
+ {
+  "level": "基本",
+  "pattern": "過去形(不規則)",
+  "en": "I went to Kyoto last week.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "went",
+    "jp": "行った",
+    "role": "動詞"
+   },
+   {
+    "en": "to Kyoto",
+    "jp": "京都へ",
+    "role": "場所"
+   },
+   {
+    "en": "last week",
+    "jp": "先週",
+    "role": "時"
+   }
+  ],
+  "jp": "私は先週京都へ行った。",
+  "point": "go-went（不規則）、時は最後",
+  "explain": "「先週 京都へ 行った」→英語は「went→to Kyoto→last week」。",
+  "id": 24
+ },
+ {
+  "level": "基本",
+  "pattern": "所有格",
+  "en": "This is my bag.",
+  "blocks": [
+   {
+    "en": "This",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "my bag",
+    "jp": "私のかばん",
+    "role": "補語"
+   }
+  ],
+  "jp": "これは私のかばんだ。",
+  "point": "所有格 my は名詞の前（my bag）",
+  "explain": "「私の→かばん」は my+名詞でひとかたまり。日本語と同じ順。",
+  "id": 25
+ },
+ {
+  "level": "基本",
+  "pattern": "複数形",
+  "en": "I have two dogs.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have",
+    "jp": "飼っている",
+    "role": "動詞"
+   },
+   {
+    "en": "two dogs",
+    "jp": "2匹の犬を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は2匹の犬を飼っている。",
+  "point": "2つ以上は複数形(-s)",
+  "explain": "数(two)+複数形(dogs)。「2匹の犬を→飼っている」→「have→two dogs」。",
+  "id": 26
+ },
+ {
+  "level": "基本",
+  "pattern": "be動詞の疑問文",
+  "en": "Is this your pen?",
+  "blocks": [
+   {
+    "en": "Is",
+    "jp": "ですか",
+    "role": "動詞"
+   },
+   {
+    "en": "this",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "your pen",
+    "jp": "あなたのペン",
+    "role": "補語"
+   }
+  ],
+  "jp": "これはあなたのペンですか？",
+  "point": "be動詞の疑問文は Is/Are を文頭に",
+  "explain": "日本語の「~ですか?」は文末。英語は be動詞 Is を主語の前（文頭）に出す。",
+  "id": 27
+ },
+ {
+  "level": "基本",
+  "pattern": "疑問詞 What",
+  "en": "What is this?",
+  "blocks": [
+   {
+    "en": "What",
+    "jp": "何",
+    "role": "疑問"
+   },
+   {
+    "en": "is",
+    "jp": "です",
+    "role": "動詞"
+   },
+   {
+    "en": "this",
+    "jp": "これは",
+    "role": "主語"
+   }
+  ],
+  "jp": "これは何ですか？",
+  "point": "What+be動詞+主語",
+  "explain": "「これは→何?」→英語は What を文頭に〈What→is→this〉。",
+  "id": 28
+ },
+ {
+  "level": "基本",
+  "pattern": "疑問詞 Who",
+  "en": "Who is that boy?",
+  "blocks": [
+   {
+    "en": "Who",
+    "jp": "だれ",
+    "role": "疑問"
+   },
+   {
+    "en": "is",
+    "jp": "です",
+    "role": "動詞"
+   },
+   {
+    "en": "that boy",
+    "jp": "あの少年は",
+    "role": "主語"
+   }
+  ],
+  "jp": "あの少年はだれですか？",
+  "point": "Who=だれ、文頭に置く",
+  "explain": "「あの少年は→だれ?」→英語は Who を文頭に。",
+  "id": 29
+ },
+ {
+  "level": "基本",
+  "pattern": "How many+名詞",
+  "en": "How many books do you have?",
+  "blocks": [
+   {
+    "en": "How many books",
+    "jp": "何冊の本を",
+    "role": "疑問"
+   },
+   {
+    "en": "do",
+    "jp": "―",
+    "role": "助動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "have",
+    "jp": "持っている",
+    "role": "動詞"
+   }
+  ],
+  "jp": "あなたは何冊の本を持っていますか？",
+  "point": "How many+名詞 を文頭に",
+  "explain": "「何冊の本を→持っている?」→「How many books」をひとかたまりで文頭に。",
+  "id": 30
+ },
+ {
+  "level": "応用",
+  "pattern": "主語+動詞+目的語+場所+時",
+  "en": "I play soccer in the park every Sunday.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "play",
+    "jp": "する",
+    "role": "動詞"
+   },
+   {
+    "en": "soccer",
+    "jp": "サッカーを",
+    "role": "目的語"
+   },
+   {
+    "en": "in the park",
+    "jp": "公園で",
+    "role": "場所"
+   },
+   {
+    "en": "every Sunday",
+    "jp": "毎週日曜に",
+    "role": "時"
+   }
+  ],
+  "jp": "私は毎週日曜日に公園でサッカーをする。",
+  "point": "〈主語→動詞→目的語→場所→時〉",
+  "explain": "英語の基本の並び。日本語(毎週日曜に 公園で サッカーを する)と最も入れ替わる型。",
+  "id": 31
+ },
+ {
+  "level": "応用",
+  "pattern": "動詞+副詞+時",
+  "en": "I get up early in the morning.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "get up",
+    "jp": "起きる",
+    "role": "動詞"
+   },
+   {
+    "en": "early",
+    "jp": "早く",
+    "role": "その他"
+   },
+   {
+    "en": "in the morning",
+    "jp": "朝に",
+    "role": "時"
+   }
+  ],
+  "jp": "私は朝早く起きる。",
+  "point": "時は最後",
+  "explain": "「朝→早く→起きる」→英語は「get up→early→in the morning」。時を最後に。",
+  "id": 32
+ },
+ {
+  "level": "応用",
+  "pattern": "動詞+目的語+時",
+  "en": "I have lunch at noon.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have",
+    "jp": "とる",
+    "role": "動詞"
+   },
+   {
+    "en": "lunch",
+    "jp": "昼食を",
+    "role": "目的語"
+   },
+   {
+    "en": "at noon",
+    "jp": "正午に",
+    "role": "時"
+   }
+  ],
+  "jp": "私は正午に昼食をとる。",
+  "point": "時は文末、at+時",
+  "explain": "「正午に→昼食を→とる」→英語は「have→lunch→at noon」。",
+  "id": 33
+ },
+ {
+  "level": "応用",
+  "pattern": "be動詞+場所",
+  "en": "The book is on the desk.",
+  "blocks": [
+   {
+    "en": "The book",
+    "jp": "その本は",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "ある",
+    "role": "動詞"
+   },
+   {
+    "en": "on the desk",
+    "jp": "机の上に",
+    "role": "場所"
+   }
+  ],
+  "jp": "その本は机の上にある。",
+  "point": "be動詞=「ある/いる」、場所は後ろ",
+  "explain": "「机の上に→ある」→英語は「is→on the desk」。on が場所の前。",
+  "id": 34
+ },
+ {
+  "level": "応用",
+  "pattern": "There is/are",
+  "en": "There is a cat under the table.",
+  "blocks": [
+   {
+    "en": "There is",
+    "jp": "いる",
+    "role": "その他"
+   },
+   {
+    "en": "a cat",
+    "jp": "猫が",
+    "role": "主語"
+   },
+   {
+    "en": "under the table",
+    "jp": "テーブルの下に",
+    "role": "場所"
+   }
+  ],
+  "jp": "テーブルの下に猫がいる。",
+  "point": "There is+主語+場所（日本語と真逆）",
+  "explain": "「テーブルの下に→猫が→いる」→英語は「There is→a cat→under the table」。並びが逆になる。",
+  "id": 35
+ },
+ {
+  "level": "応用",
+  "pattern": "be動詞+時",
+  "en": "My birthday is in May.",
+  "blocks": [
+   {
+    "en": "My birthday",
+    "jp": "私の誕生日は",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "in May",
+    "jp": "5月に",
+    "role": "時"
+   }
+  ],
+  "jp": "私の誕生日は5月だ。",
+  "point": "時は be動詞の後、in+月",
+  "explain": "「5月→だ」→英語は「is→in May」。in が月の前にくる。",
+  "id": 36
+ },
+ {
+  "level": "応用",
+  "pattern": "can+動詞",
+  "en": "I can swim well.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "can",
+    "jp": "できる",
+    "role": "助動詞"
+   },
+   {
+    "en": "swim",
+    "jp": "泳ぐ",
+    "role": "動詞"
+   },
+   {
+    "en": "well",
+    "jp": "上手に",
+    "role": "その他"
+   }
+  ],
+  "jp": "私は上手に泳げる。",
+  "point": "助動詞 can+動詞の原形",
+  "explain": "can の後は原形 swim。「上手に泳げる」=can swim well。",
+  "id": 37
+ },
+ {
+  "level": "応用",
+  "pattern": "will+動詞+時",
+  "en": "I will visit Kyoto next week.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "will",
+    "jp": "〜する予定",
+    "role": "助動詞"
+   },
+   {
+    "en": "visit",
+    "jp": "訪れる",
+    "role": "動詞"
+   },
+   {
+    "en": "Kyoto",
+    "jp": "京都を",
+    "role": "目的語"
+   },
+   {
+    "en": "next week",
+    "jp": "来週",
+    "role": "時"
+   }
+  ],
+  "jp": "私は来週京都を訪れる。",
+  "point": "will+原形、時は最後",
+  "explain": "「来週→京都を→訪れる」→英語は「will visit→Kyoto→next week」。",
+  "id": 38
+ },
+ {
+  "level": "応用",
+  "pattern": "must+動詞",
+  "en": "I must do my homework.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "must",
+    "jp": "ねばならない",
+    "role": "助動詞"
+   },
+   {
+    "en": "do",
+    "jp": "する",
+    "role": "動詞"
+   },
+   {
+    "en": "my homework",
+    "jp": "宿題を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は宿題をしなければならない。",
+  "point": "must+原形",
+  "explain": "「宿題を→しなければ」→英語は「must→do→my homework」。助動詞の後は原形。",
+  "id": 39
+ },
+ {
+  "level": "応用",
+  "pattern": "should+動詞",
+  "en": "You should see a doctor.",
+  "blocks": [
+   {
+    "en": "You",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "should",
+    "jp": "べきだ",
+    "role": "助動詞"
+   },
+   {
+    "en": "see",
+    "jp": "診てもらう",
+    "role": "動詞"
+   },
+   {
+    "en": "a doctor",
+    "jp": "医者に",
+    "role": "目的語"
+   }
+  ],
+  "jp": "あなたは医者に診てもらうべきだ。",
+  "point": "should+原形",
+  "explain": "「医者に→診てもらうべき」→英語は「should→see→a doctor」。",
+  "id": 40
+ },
+ {
+  "level": "応用",
+  "pattern": "want to+動詞",
+  "en": "I want to be a teacher.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "want",
+    "jp": "〜したい",
+    "role": "動詞"
+   },
+   {
+    "en": "to be",
+    "jp": "なること",
+    "role": "動詞"
+   },
+   {
+    "en": "a teacher",
+    "jp": "先生に",
+    "role": "補語"
+   }
+  ],
+  "jp": "私は先生になりたい。",
+  "point": "want to+原形=「~したい」",
+  "explain": "「先生に→なりたい」→英語は「want to be→a teacher」。「~したい(want to)」を先に。",
+  "id": 41
+ },
+ {
+  "level": "応用",
+  "pattern": "like to+動詞",
+  "en": "I like to read books.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "like",
+    "jp": "好きだ",
+    "role": "動詞"
+   },
+   {
+    "en": "to read",
+    "jp": "読むこと",
+    "role": "動詞"
+   },
+   {
+    "en": "books",
+    "jp": "本を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は本を読むのが好きだ。",
+  "point": "like to+原形",
+  "explain": "「本を→読むのが→好き」→英語は「like to read→books」。",
+  "id": 42
+ },
+ {
+  "level": "応用",
+  "pattern": "不定詞(目的)",
+  "en": "I went to the park to play soccer.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "went",
+    "jp": "行った",
+    "role": "動詞"
+   },
+   {
+    "en": "to the park",
+    "jp": "公園へ",
+    "role": "場所"
+   },
+   {
+    "en": "to play soccer",
+    "jp": "サッカーをするために",
+    "role": "その他"
+   }
+  ],
+  "jp": "私はサッカーをするために公園へ行った。",
+  "point": "to+原形=「~するために」(目的は後ろ)",
+  "explain": "「サッカーをするために→公園へ→行った」→英語は「went→to the park→to play soccer」。目的が最後。",
+  "id": 43
+ },
+ {
+  "level": "応用",
+  "pattern": "疑問文(Do)",
+  "en": "Do you like music?",
+  "blocks": [
+   {
+    "en": "Do",
+    "jp": "〜ですか",
+    "role": "助動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "like",
+    "jp": "好き",
+    "role": "動詞"
+   },
+   {
+    "en": "music",
+    "jp": "音楽が",
+    "role": "目的語"
+   }
+  ],
+  "jp": "あなたは音楽が好きですか？",
+  "point": "疑問文は Do を先頭に",
+  "explain": "日本語の「~ですか?」は文末。英語は Do を文頭に置く大きな語順転換。",
+  "id": 44
+ },
+ {
+  "level": "応用",
+  "pattern": "疑問詞(What)",
+  "en": "What do you want?",
+  "blocks": [
+   {
+    "en": "What",
+    "jp": "何を",
+    "role": "疑問"
+   },
+   {
+    "en": "do",
+    "jp": "―",
+    "role": "助動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "want",
+    "jp": "欲しい",
+    "role": "動詞"
+   }
+  ],
+  "jp": "あなたは何が欲しいですか？",
+  "point": "疑問詞→do→主語→動詞",
+  "explain": "「何が→欲しい?」→英語は What を先頭に〈What→do→you→want〉。",
+  "id": 45
+ },
+ {
+  "level": "応用",
+  "pattern": "疑問詞(Where)",
+  "en": "Where do you live?",
+  "blocks": [
+   {
+    "en": "Where",
+    "jp": "どこに",
+    "role": "疑問"
+   },
+   {
+    "en": "do",
+    "jp": "―",
+    "role": "助動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "live",
+    "jp": "住む",
+    "role": "動詞"
+   }
+  ],
+  "jp": "あなたはどこに住んでいますか？",
+  "point": "Where を文頭に",
+  "explain": "「どこに→住む?」→英語は〈Where→do→you→live〉。疑問詞が文頭。",
+  "id": 46
+ },
+ {
+  "level": "応用",
+  "pattern": "疑問文(Can)",
+  "en": "Can you play the guitar?",
+  "blocks": [
+   {
+    "en": "Can",
+    "jp": "〜できますか",
+    "role": "助動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "play",
+    "jp": "弾く",
+    "role": "動詞"
+   },
+   {
+    "en": "the guitar",
+    "jp": "ギターを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "あなたはギターを弾けますか？",
+  "point": "助動詞 Can を先頭に",
+  "explain": "「ギターを→弾けますか?」→英語は Can を先頭に〈Can→you→play→the guitar〉。",
+  "id": 47
+ },
+ {
+  "level": "応用",
+  "pattern": "比較級",
+  "en": "Ken is taller than Tom.",
+  "blocks": [
+   {
+    "en": "Ken",
+    "jp": "ケンは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "taller",
+    "jp": "より背が高い",
+    "role": "補語"
+   },
+   {
+    "en": "than Tom",
+    "jp": "トムより",
+    "role": "その他"
+   }
+  ],
+  "jp": "ケンはトムより背が高い。",
+  "point": "比較級+than ~",
+  "explain": "「トムより→背が高い」→英語は「taller→than Tom」。比較級が先、than が後ろ。",
+  "id": 48
+ },
+ {
+  "level": "応用",
+  "pattern": "be going to",
+  "en": "I am going to study tonight.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "am going to",
+    "jp": "〜するつもり",
+    "role": "助動詞"
+   },
+   {
+    "en": "study",
+    "jp": "勉強する",
+    "role": "動詞"
+   },
+   {
+    "en": "tonight",
+    "jp": "今夜",
+    "role": "時"
+   }
+  ],
+  "jp": "私は今夜勉強するつもりだ。",
+  "point": "be going to+原形=未来(~するつもり)",
+  "explain": "「今夜→勉強するつもり」→英語は「am going to study→tonight」。",
+  "id": 49
+ },
+ {
+  "level": "応用",
+  "pattern": "be going to",
+  "en": "It is going to rain.",
+  "blocks": [
+   {
+    "en": "It",
+    "jp": "―",
+    "role": "主語"
+   },
+   {
+    "en": "is going to",
+    "jp": "〜しそう",
+    "role": "助動詞"
+   },
+   {
+    "en": "rain",
+    "jp": "雨が降る",
+    "role": "動詞"
+   }
+  ],
+  "jp": "雨が降りそうだ。",
+  "point": "be going to=「~しそう/するつもり」",
+  "explain": "天気の It を主語に。is going to rain で「降りそう」。",
+  "id": 50
+ },
+ {
+  "level": "応用",
+  "pattern": "過去進行形",
+  "en": "I was watching TV then.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "was watching",
+    "jp": "見ていた",
+    "role": "動詞"
+   },
+   {
+    "en": "TV",
+    "jp": "テレビを",
+    "role": "目的語"
+   },
+   {
+    "en": "then",
+    "jp": "そのとき",
+    "role": "時"
+   }
+  ],
+  "jp": "私はそのときテレビを見ていた。",
+  "point": "was/were+~ing=過去進行形",
+  "explain": "「見ていた」は was watching。時(then)は文末。",
+  "id": 51
+ },
+ {
+  "level": "応用",
+  "pattern": "過去進行形",
+  "en": "They were playing soccer.",
+  "blocks": [
+   {
+    "en": "They",
+    "jp": "彼らは",
+    "role": "主語"
+   },
+   {
+    "en": "were playing",
+    "jp": "していた",
+    "role": "動詞"
+   },
+   {
+    "en": "soccer",
+    "jp": "サッカーを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "彼らはサッカーをしていた。",
+  "point": "複数主語は were+~ing",
+  "explain": "They なので were playing。",
+  "id": 52
+ },
+ {
+  "level": "応用",
+  "pattern": "不定詞(形容詞的)",
+  "en": "I want something to drink.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "want",
+    "jp": "欲しい",
+    "role": "動詞"
+   },
+   {
+    "en": "something",
+    "jp": "何か",
+    "role": "目的語"
+   },
+   {
+    "en": "to drink",
+    "jp": "飲むための",
+    "role": "その他"
+   }
+  ],
+  "jp": "私は何か飲み物が欲しい。",
+  "point": "名詞+to+原形=「~するための」(後ろから修飾)",
+  "explain": "「飲むための→何か」→英語は「something→to drink」。to不定詞が名詞の後ろにくる。",
+  "id": 53
+ },
+ {
+  "level": "応用",
+  "pattern": "不定詞(形容詞的)",
+  "en": "I have a lot of work to do.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have",
+    "jp": "ある",
+    "role": "動詞"
+   },
+   {
+    "en": "a lot of work",
+    "jp": "たくさんの仕事が",
+    "role": "目的語"
+   },
+   {
+    "en": "to do",
+    "jp": "やるべき",
+    "role": "その他"
+   }
+  ],
+  "jp": "私にはやるべき仕事がたくさんある。",
+  "point": "名詞+to+原形=「~すべき(名詞)」",
+  "explain": "「やるべき→仕事」→英語は「work→to do」。to不定詞が後ろから説明。",
+  "id": 54
+ },
+ {
+  "level": "応用",
+  "pattern": "不定詞(副詞的・感情)",
+  "en": "I am glad to see you.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "am",
+    "jp": "―",
+    "role": "動詞"
+   },
+   {
+    "en": "glad",
+    "jp": "うれしい",
+    "role": "補語"
+   },
+   {
+    "en": "to see you",
+    "jp": "あなたに会えて",
+    "role": "その他"
+   }
+  ],
+  "jp": "私はあなたに会えてうれしい。",
+  "point": "形容詞+to ~=「~して(感情の原因)」",
+  "explain": "「会えて→うれしい」→英語は「glad→to see you」。感情の原因を to ~ で後ろに。",
+  "id": 55
+ },
+ {
+  "level": "応用",
+  "pattern": "不定詞(名詞的)",
+  "en": "I hope to see you again.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "hope",
+    "jp": "願う",
+    "role": "動詞"
+   },
+   {
+    "en": "to see you again",
+    "jp": "また会うことを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私はまたあなたに会いたい。",
+  "point": "hope to+原形=「~したいと願う」",
+  "explain": "「また会うことを→願う」→英語は「hope→to see you again」。",
+  "id": 56
+ },
+ {
+  "level": "応用",
+  "pattern": "動名詞",
+  "en": "I enjoy reading books.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "enjoy",
+    "jp": "楽しむ",
+    "role": "動詞"
+   },
+   {
+    "en": "reading books",
+    "jp": "本を読むことを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は本を読むのを楽しむ。",
+  "point": "enjoy+~ing（動名詞）",
+  "explain": "enjoy の後は ~ing。「読むことを→楽しむ」→「enjoy→reading books」。",
+  "id": 57
+ },
+ {
+  "level": "応用",
+  "pattern": "動名詞(前置詞の後)",
+  "en": "He is good at playing soccer.",
+  "blocks": [
+   {
+    "en": "He",
+    "jp": "彼は",
+    "role": "主語"
+   },
+   {
+    "en": "is good at",
+    "jp": "得意だ",
+    "role": "動詞"
+   },
+   {
+    "en": "playing soccer",
+    "jp": "サッカーをすることが",
+    "role": "その他"
+   }
+  ],
+  "jp": "彼はサッカーが得意だ。",
+  "point": "前置詞(at)の後は~ing",
+  "explain": "be good at の後は動名詞。「サッカーをすることが→得意」→「good at→playing soccer」。",
+  "id": 58
+ },
+ {
+  "level": "応用",
+  "pattern": "動名詞(前置詞の後)",
+  "en": "Thank you for helping me.",
+  "blocks": [
+   {
+    "en": "Thank you",
+    "jp": "ありがとう",
+    "role": "その他"
+   },
+   {
+    "en": "for helping me",
+    "jp": "助けてくれて",
+    "role": "その他"
+   }
+  ],
+  "jp": "助けてくれてありがとう。",
+  "point": "for+~ing=「~してくれて」",
+  "explain": "前置詞 for の後は動名詞。「助けてくれて→ありがとう」→「Thank you→for helping me」。",
+  "id": 59
+ },
+ {
+  "level": "応用",
+  "pattern": "動名詞(目的語)",
+  "en": "Please stop talking.",
+  "blocks": [
+   {
+    "en": "Please",
+    "jp": "お願い",
+    "role": "その他"
+   },
+   {
+    "en": "stop",
+    "jp": "やめて",
+    "role": "動詞"
+   },
+   {
+    "en": "talking",
+    "jp": "話すのを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "話すのをやめてください。",
+  "point": "stop+~ing=「~するのをやめる」",
+  "explain": "stop の後は ~ing。「話すのを→やめて」→「stop→talking」。",
+  "id": 60
+ },
+ {
+  "level": "応用",
+  "pattern": "動名詞(主語)",
+  "en": "Reading books is fun.",
+  "blocks": [
+   {
+    "en": "Reading books",
+    "jp": "本を読むことは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "fun",
+    "jp": "楽しい",
+    "role": "補語"
+   }
+  ],
+  "jp": "本を読むことは楽しい。",
+  "point": "~ing が主語=「~することは」",
+  "explain": "動名詞が文の主語に。「本を読むことは→楽しい」→「Reading books→is fun」。",
+  "id": 61
+ },
+ {
+  "level": "応用",
+  "pattern": "接続詞 if",
+  "en": "If you are free, call me.",
+  "blocks": [
+   {
+    "en": "If",
+    "jp": "もし〜なら",
+    "role": "その他"
+   },
+   {
+    "en": "you are free",
+    "jp": "あなたが暇",
+    "role": "その他"
+   },
+   {
+    "en": "call me",
+    "jp": "電話して",
+    "role": "その他"
+   }
+  ],
+  "jp": "もし暇なら、電話して。",
+  "point": "if ~=「もし~なら」(条件)",
+  "explain": "条件は if を前に。〈If 節, メインの文〉。",
+  "id": 62
+ },
+ {
+  "level": "応用",
+  "pattern": "接続詞 because",
+  "en": "I was late because I missed the bus.",
+  "blocks": [
+   {
+    "en": "I was late",
+    "jp": "私は遅れた",
+    "role": "その他"
+   },
+   {
+    "en": "because",
+    "jp": "〜だから",
+    "role": "その他"
+   },
+   {
+    "en": "I missed the bus",
+    "jp": "バスに乗り遅れた",
+    "role": "その他"
+   }
+  ],
+  "jp": "バスに乗り遅れたので、私は遅れた。",
+  "point": "because ~=「~だから」(理由)",
+  "explain": "理由は because でつなぐ。〈結果 + because + 理由〉の語順。",
+  "id": 63
+ },
+ {
+  "level": "応用",
+  "pattern": "as ~ as",
+  "en": "I am as tall as you.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "am",
+    "jp": "―",
+    "role": "動詞"
+   },
+   {
+    "en": "as tall as",
+    "jp": "同じくらい背が高い",
+    "role": "補語"
+   },
+   {
+    "en": "you",
+    "jp": "あなたと",
+    "role": "その他"
+   }
+  ],
+  "jp": "私はあなたと同じくらい背が高い。",
+  "point": "as+原級+as=「…と同じくらい~」",
+  "explain": "「あなたと→同じくらい高い」→英語は「as tall as→you」。as ... as で挟む。",
+  "id": 64
+ },
+ {
+  "level": "応用",
+  "pattern": "not as ~ as",
+  "en": "This is not as big as that.",
+  "blocks": [
+   {
+    "en": "This",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "is not",
+    "jp": "〜でない",
+    "role": "動詞"
+   },
+   {
+    "en": "as big as",
+    "jp": "〜ほど大きく",
+    "role": "補語"
+   },
+   {
+    "en": "that",
+    "jp": "あれ",
+    "role": "その他"
+   }
+  ],
+  "jp": "これはあれほど大きくない。",
+  "point": "not as ~ as=「…ほど~でない」",
+  "explain": "「あれ→ほど大きくない」→「not as big as→that」。",
+  "id": 65
+ },
+ {
+  "level": "応用",
+  "pattern": "SVC(look+形容詞)",
+  "en": "You look tired.",
+  "blocks": [
+   {
+    "en": "You",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "look",
+    "jp": "見える",
+    "role": "動詞"
+   },
+   {
+    "en": "tired",
+    "jp": "疲れて",
+    "role": "補語"
+   }
+  ],
+  "jp": "あなたは疲れて見える。",
+  "point": "look+形容詞=「~に見える」",
+  "explain": "「疲れて→見える」→英語は「look→tired」。look の後に形容詞。",
+  "id": 66
+ },
+ {
+  "level": "応用",
+  "pattern": "SVC(become)",
+  "en": "He became a doctor.",
+  "blocks": [
+   {
+    "en": "He",
+    "jp": "彼は",
+    "role": "主語"
+   },
+   {
+    "en": "became",
+    "jp": "なった",
+    "role": "動詞"
+   },
+   {
+    "en": "a doctor",
+    "jp": "医者に",
+    "role": "補語"
+   }
+  ],
+  "jp": "彼は医者になった。",
+  "point": "become+名詞=「~になる」",
+  "explain": "「医者に→なった」→英語は「became→a doctor」。",
+  "id": 67
+ },
+ {
+  "level": "応用",
+  "pattern": "SVOO(物+to+人)",
+  "en": "I gave a present to him.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "gave",
+    "jp": "あげた",
+    "role": "動詞"
+   },
+   {
+    "en": "a present",
+    "jp": "プレゼントを",
+    "role": "目的語"
+   },
+   {
+    "en": "to him",
+    "jp": "彼に",
+    "role": "場所"
+   }
+  ],
+  "jp": "私は彼にプレゼントをあげた。",
+  "point": "give+物+to+人 の形もある",
+  "explain": "「彼に プレゼントを あげた」は give him a present のほか、give a present to him とも言える。",
+  "id": 68
+ },
+ {
+  "level": "応用",
+  "pattern": "疑問詞 When",
+  "en": "When do you study?",
+  "blocks": [
+   {
+    "en": "When",
+    "jp": "いつ",
+    "role": "疑問"
+   },
+   {
+    "en": "do",
+    "jp": "―",
+    "role": "助動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "study",
+    "jp": "勉強する",
+    "role": "動詞"
+   }
+  ],
+  "jp": "あなたはいつ勉強しますか？",
+  "point": "When を文頭に→do→主語→動詞",
+  "explain": "「いつ→勉強する?」→英語は When を文頭に〈When→do→you→study〉。",
+  "id": 69
+ },
+ {
+  "level": "応用",
+  "pattern": "疑問詞 How",
+  "en": "How do you go to school?",
+  "blocks": [
+   {
+    "en": "How",
+    "jp": "どうやって",
+    "role": "疑問"
+   },
+   {
+    "en": "do",
+    "jp": "―",
+    "role": "助動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "go",
+    "jp": "行く",
+    "role": "動詞"
+   },
+   {
+    "en": "to school",
+    "jp": "学校へ",
+    "role": "場所"
+   }
+  ],
+  "jp": "あなたはどうやって学校へ行きますか？",
+  "point": "How(手段)を文頭に",
+  "explain": "「どうやって→学校へ→行く?」→「How→do→you→go→to school」。",
+  "id": 70
+ },
+ {
+  "level": "応用",
+  "pattern": "must not(禁止)",
+  "en": "You must not swim here.",
+  "blocks": [
+   {
+    "en": "You",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "must not",
+    "jp": "〜してはいけない",
+    "role": "助動詞"
+   },
+   {
+    "en": "swim",
+    "jp": "泳ぐ",
+    "role": "動詞"
+   },
+   {
+    "en": "here",
+    "jp": "ここで",
+    "role": "場所"
+   }
+  ],
+  "jp": "ここで泳いではいけない。",
+  "point": "must not=「~してはいけない」(強い禁止)",
+  "explain": "「ここで→泳いではいけない」→「must not swim→here」。",
+  "id": 71
+ },
+ {
+  "level": "応用",
+  "pattern": "don't have to(不要)",
+  "en": "You don't have to come.",
+  "blocks": [
+   {
+    "en": "You",
+    "jp": "あなたは",
+    "role": "主語"
+   },
+   {
+    "en": "don't have to",
+    "jp": "〜しなくてよい",
+    "role": "助動詞"
+   },
+   {
+    "en": "come",
+    "jp": "来る",
+    "role": "動詞"
+   }
+  ],
+  "jp": "あなたは来なくてよい。",
+  "point": "don't have to=「~しなくてよい」(不要)",
+  "explain": "must not(禁止)と違い、don't have to は「する必要がない」。",
+  "id": 72
+ },
+ {
+  "level": "発展",
+  "pattern": "最上級",
+  "en": "This is the most interesting book.",
+  "blocks": [
+   {
+    "en": "This",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "the most interesting",
+    "jp": "最もおもしろい",
+    "role": "その他"
+   },
+   {
+    "en": "book",
+    "jp": "本",
+    "role": "補語"
+   }
+  ],
+  "jp": "これは最もおもしろい本だ。",
+  "point": "最上級 the most+形容詞（名詞の前）",
+  "explain": "「最もおもしろい→本」→英語は「the most interesting→book」。形容詞のかたまりが名詞の前。",
+  "id": 73
+ },
+ {
+  "level": "発展",
+  "pattern": "SVOO(人+物)",
+  "en": "I gave him a present.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "gave",
+    "jp": "あげた",
+    "role": "動詞"
+   },
+   {
+    "en": "him",
+    "jp": "彼に",
+    "role": "目的語"
+   },
+   {
+    "en": "a present",
+    "jp": "プレゼントを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は彼にプレゼントをあげた。",
+  "point": "give+人+物（人→物の順）",
+  "explain": "「彼に→プレゼントを→あげた」→英語は「gave→him→a present」。動詞の後に〈人→物〉。",
+  "id": 74
+ },
+ {
+  "level": "発展",
+  "pattern": "SVOC(A+B)",
+  "en": "We call him Tom.",
+  "blocks": [
+   {
+    "en": "We",
+    "jp": "私たちは",
+    "role": "主語"
+   },
+   {
+    "en": "call",
+    "jp": "呼ぶ",
+    "role": "動詞"
+   },
+   {
+    "en": "him",
+    "jp": "彼を",
+    "role": "目的語"
+   },
+   {
+    "en": "Tom",
+    "jp": "トムと",
+    "role": "補語"
+   }
+  ],
+  "jp": "私たちは彼をトムと呼ぶ。",
+  "point": "call+A+B=「AをBと呼ぶ」",
+  "explain": "「彼を→トムと→呼ぶ」→英語は「call→him→Tom」。〈動詞→A→B〉。",
+  "id": 75
+ },
+ {
+  "level": "発展",
+  "pattern": "think that ~",
+  "en": "I think that he is right.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "think",
+    "jp": "思う",
+    "role": "動詞"
+   },
+   {
+    "en": "that",
+    "jp": "―",
+    "role": "その他"
+   },
+   {
+    "en": "he is right",
+    "jp": "彼は正しい",
+    "role": "その他"
+   }
+  ],
+  "jp": "私は彼が正しいと思う。",
+  "point": "think (that)+文=「~と思う」",
+  "explain": "「彼が正しい→と思う」→英語は「think→(that)→he is right」。「思う」が先、内容が後ろ。that は省略可。",
+  "id": 76
+ },
+ {
+  "level": "発展",
+  "pattern": "接続詞 when",
+  "en": "When I was young, I lived in Osaka.",
+  "blocks": [
+   {
+    "en": "When",
+    "jp": "〜のとき",
+    "role": "その他"
+   },
+   {
+    "en": "I was young",
+    "jp": "私は若かった",
+    "role": "その他"
+   },
+   {
+    "en": "I lived",
+    "jp": "私は住んでいた",
+    "role": "動詞"
+   },
+   {
+    "en": "in Osaka",
+    "jp": "大阪に",
+    "role": "場所"
+   }
+  ],
+  "jp": "若かったとき、私は大阪に住んでいた。",
+  "point": "When ~, で2つの文をつなぐ",
+  "explain": "「~のとき」は when を前に置く。〈When 節, メインの文〉の形。",
+  "id": 77
+ },
+ {
+  "level": "発展",
+  "pattern": "受け身(be+過去分詞)",
+  "en": "English is spoken in Australia.",
+  "blocks": [
+   {
+    "en": "English",
+    "jp": "英語は",
+    "role": "主語"
+   },
+   {
+    "en": "is spoken",
+    "jp": "話されている",
+    "role": "動詞"
+   },
+   {
+    "en": "in Australia",
+    "jp": "オーストラリアで",
+    "role": "場所"
+   }
+  ],
+  "jp": "英語はオーストラリアで話されている。",
+  "point": "受け身 be+過去分詞=「~される」",
+  "explain": "「話されている」=is spoken（be+過去分詞）。主語は動作を受ける側になる。",
+  "id": 78
+ },
+ {
+  "level": "発展",
+  "pattern": "現在完了(経験)",
+  "en": "I have visited Kyoto twice.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have visited",
+    "jp": "訪れたことがある",
+    "role": "動詞"
+   },
+   {
+    "en": "Kyoto",
+    "jp": "京都を",
+    "role": "目的語"
+   },
+   {
+    "en": "twice",
+    "jp": "2回",
+    "role": "時"
+   }
+  ],
+  "jp": "私は京都を2回訪れたことがある。",
+  "point": "have+過去分詞=「~したことがある」",
+  "explain": "「訪れたことがある」=have visited。経験を表す現在完了。",
+  "id": 79
+ },
+ {
+  "level": "発展",
+  "pattern": "現在完了(継続)",
+  "en": "I have known him for ten years.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have known",
+    "jp": "知っている",
+    "role": "動詞"
+   },
+   {
+    "en": "him",
+    "jp": "彼を",
+    "role": "目的語"
+   },
+   {
+    "en": "for ten years",
+    "jp": "10年間",
+    "role": "時"
+   }
+  ],
+  "jp": "私は彼を10年間知っている。",
+  "point": "have+過去分詞=「ずっと~している」(継続)",
+  "explain": "「10年間→知っている」→英語は「have known→him→for ten years」。for+期間。",
+  "id": 80
+ },
+ {
+  "level": "発展",
+  "pattern": "関係代名詞(主格)",
+  "en": "I have a friend who lives in Osaka.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have",
+    "jp": "いる",
+    "role": "動詞"
+   },
+   {
+    "en": "a friend",
+    "jp": "友達が",
+    "role": "目的語"
+   },
+   {
+    "en": "who lives in Osaka",
+    "jp": "大阪に住んでいる",
+    "role": "その他"
+   }
+  ],
+  "jp": "私には大阪に住んでいる友達がいる。",
+  "point": "名詞+who+説明（後ろから修飾）",
+  "explain": "日本語は「大阪に住んでいる→友達」と前から説明。英語は「a friend→who lives in Osaka」で後ろから。語順が真逆の重要ポイント。",
+  "id": 81
+ },
+ {
+  "level": "発展",
+  "pattern": "関係代名詞(目的格)",
+  "en": "This is the book that I bought yesterday.",
+  "blocks": [
+   {
+    "en": "This",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "the book",
+    "jp": "本",
+    "role": "補語"
+   },
+   {
+    "en": "that I bought yesterday",
+    "jp": "私が昨日買った",
+    "role": "その他"
+   }
+  ],
+  "jp": "これは私が昨日買った本だ。",
+  "point": "名詞+that+説明（目的格、省略可）",
+  "explain": "「私が昨日買った→本」→英語は「the book→that I bought yesterday」。説明が名詞の後ろ。",
+  "id": 82
+ },
+ {
+  "level": "発展",
+  "pattern": "分詞(後置修飾)",
+  "en": "The boy running in the park is my brother.",
+  "blocks": [
+   {
+    "en": "The boy",
+    "jp": "その少年は",
+    "role": "主語"
+   },
+   {
+    "en": "running in the park",
+    "jp": "公園で走っている",
+    "role": "その他"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "my brother",
+    "jp": "私の弟",
+    "role": "補語"
+   }
+  ],
+  "jp": "公園で走っている少年は私の弟だ。",
+  "point": "名詞+~ing…=「~している(名詞)」(後置修飾)",
+  "explain": "「公園で走っている→少年」→英語は「The boy→running in the park」。-ing のかたまりが名詞の後ろにくる。",
+  "id": 83
+ },
+ {
+  "level": "発展",
+  "pattern": "形式主語 it",
+  "en": "It is fun to play games.",
+  "blocks": [
+   {
+    "en": "It",
+    "jp": "―",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "fun",
+    "jp": "楽しい",
+    "role": "補語"
+   },
+   {
+    "en": "to play games",
+    "jp": "ゲームをするのは",
+    "role": "その他"
+   }
+  ],
+  "jp": "ゲームをするのは楽しい。",
+  "point": "It is … to ~（本当の主語は to ~）",
+  "explain": "「ゲームをするのは→楽しい」→英語は形式主語 It で始め、本当の主語 to play games を後ろに置く。",
+  "id": 84
+ },
+ {
+  "level": "発展",
+  "pattern": "受け身(過去)",
+  "en": "This temple was built long ago.",
+  "blocks": [
+   {
+    "en": "This temple",
+    "jp": "この寺は",
+    "role": "主語"
+   },
+   {
+    "en": "was built",
+    "jp": "建てられた",
+    "role": "動詞"
+   },
+   {
+    "en": "long ago",
+    "jp": "ずっと昔に",
+    "role": "時"
+   }
+  ],
+  "jp": "この寺はずっと昔に建てられた。",
+  "point": "was/were+過去分詞=過去の受け身",
+  "explain": "「建てられた」は was built。主語は動作を受ける側。時は文末。",
+  "id": 85
+ },
+ {
+  "level": "発展",
+  "pattern": "受け身(by)",
+  "en": "This song is loved by everyone.",
+  "blocks": [
+   {
+    "en": "This song",
+    "jp": "この歌は",
+    "role": "主語"
+   },
+   {
+    "en": "is loved",
+    "jp": "愛されている",
+    "role": "動詞"
+   },
+   {
+    "en": "by everyone",
+    "jp": "みんなに",
+    "role": "その他"
+   }
+  ],
+  "jp": "この歌はみんなに愛されている。",
+  "point": "by ~=「~によって」(動作主)",
+  "explain": "「みんなに→愛されている」→英語は「is loved→by everyone」。by の後に動作主。",
+  "id": 86
+ },
+ {
+  "level": "発展",
+  "pattern": "受け身(疑問)",
+  "en": "Was this book written by him?",
+  "blocks": [
+   {
+    "en": "Was",
+    "jp": "―",
+    "role": "助動詞"
+   },
+   {
+    "en": "this book",
+    "jp": "この本は",
+    "role": "主語"
+   },
+   {
+    "en": "written",
+    "jp": "書かれた",
+    "role": "動詞"
+   },
+   {
+    "en": "by him",
+    "jp": "彼によって",
+    "role": "その他"
+   }
+  ],
+  "jp": "この本は彼によって書かれたのですか？",
+  "point": "受け身の疑問は be動詞を文頭に",
+  "explain": "受け身の疑問文は Was/Is を主語の前へ。〈Was→主語→過去分詞→by ~〉。",
+  "id": 87
+ },
+ {
+  "level": "発展",
+  "pattern": "現在完了(完了・just)",
+  "en": "I have just finished lunch.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have just finished",
+    "jp": "ちょうど終えた",
+    "role": "動詞"
+   },
+   {
+    "en": "lunch",
+    "jp": "昼食を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私はちょうど昼食を終えた。",
+  "point": "have just+過去分詞=「ちょうど~した」",
+  "explain": "完了を表す現在完了。just(ちょうど)を have と過去分詞の間に。",
+  "id": 88
+ },
+ {
+  "level": "発展",
+  "pattern": "現在完了(完了・already)",
+  "en": "I have already read it.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have already read",
+    "jp": "もう読んだ",
+    "role": "動詞"
+   },
+   {
+    "en": "it",
+    "jp": "それを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私はもうそれを読んだ。",
+  "point": "already=「もう・すでに」(完了)",
+  "explain": "「もう読んだ」=have already read。",
+  "id": 89
+ },
+ {
+  "level": "発展",
+  "pattern": "現在完了(完了・yet)",
+  "en": "I haven't done it yet.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "haven't done",
+    "jp": "まだしていない",
+    "role": "動詞"
+   },
+   {
+    "en": "it",
+    "jp": "それを",
+    "role": "目的語"
+   },
+   {
+    "en": "yet",
+    "jp": "まだ",
+    "role": "時"
+   }
+  ],
+  "jp": "私はまだそれをしていない。",
+  "point": "not ~ yet=「まだ~していない」",
+  "explain": "否定文の yet は文末で「まだ」。",
+  "id": 90
+ },
+ {
+  "level": "発展",
+  "pattern": "have been to",
+  "en": "I have been to Hokkaido.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have been to",
+    "jp": "行ったことがある",
+    "role": "動詞"
+   },
+   {
+    "en": "Hokkaido",
+    "jp": "北海道へ",
+    "role": "場所"
+   }
+  ],
+  "jp": "私は北海道へ行ったことがある。",
+  "point": "have been to ~=「~へ行ったことがある」",
+  "explain": "経験を表す。have gone to(行ってしまった)とは意味が違う。",
+  "id": 91
+ },
+ {
+  "level": "発展",
+  "pattern": "現在完了進行形",
+  "en": "I have been studying for two hours.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "have been studying",
+    "jp": "ずっと勉強している",
+    "role": "動詞"
+   },
+   {
+    "en": "for two hours",
+    "jp": "2時間",
+    "role": "時"
+   }
+  ],
+  "jp": "私は2時間ずっと勉強している。",
+  "point": "have been+~ing=「ずっと~し続けている」",
+  "explain": "動作の継続。「2時間→勉強し続けている」→「have been studying→for two hours」。",
+  "id": 92
+ },
+ {
+  "level": "発展",
+  "pattern": "形式主語 it...to",
+  "en": "It is important to read books.",
+  "blocks": [
+   {
+    "en": "It",
+    "jp": "―",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "important",
+    "jp": "大切",
+    "role": "補語"
+   },
+   {
+    "en": "to read books",
+    "jp": "本を読むことは",
+    "role": "その他"
+   }
+  ],
+  "jp": "本を読むことは大切だ。",
+  "point": "It is … to ~（本当の主語は to ~）",
+  "explain": "「本を読むことは→大切」→形式主語 It で始め、本当の主語 to read books を後ろに。",
+  "id": 93
+ },
+ {
+  "level": "発展",
+  "pattern": "too ... to",
+  "en": "This box is too heavy to carry.",
+  "blocks": [
+   {
+    "en": "This box",
+    "jp": "この箱は",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "―",
+    "role": "動詞"
+   },
+   {
+    "en": "too heavy",
+    "jp": "重すぎる",
+    "role": "補語"
+   },
+   {
+    "en": "to carry",
+    "jp": "運ぶには",
+    "role": "その他"
+   }
+  ],
+  "jp": "この箱は重すぎて運べない。",
+  "point": "too ... to ~=「~するには…すぎる」",
+  "explain": "「運ぶには→重すぎる」→「too heavy→to carry」。",
+  "id": 94
+ },
+ {
+  "level": "発展",
+  "pattern": "want+人+to",
+  "en": "I want you to help me.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "want",
+    "jp": "してほしい",
+    "role": "動詞"
+   },
+   {
+    "en": "you",
+    "jp": "あなたに",
+    "role": "目的語"
+   },
+   {
+    "en": "to help me",
+    "jp": "私を助けて",
+    "role": "その他"
+   }
+  ],
+  "jp": "私はあなたに助けてほしい。",
+  "point": "want+人+to+原形=「人に~してほしい」",
+  "explain": "「あなたに→助けてほしい」→英語は「want→you→to help me」。〈動詞→人→to+原形〉。",
+  "id": 95
+ },
+ {
+  "level": "発展",
+  "pattern": "tell+人+to",
+  "en": "She told me to wait.",
+  "blocks": [
+   {
+    "en": "She",
+    "jp": "彼女は",
+    "role": "主語"
+   },
+   {
+    "en": "told",
+    "jp": "言った",
+    "role": "動詞"
+   },
+   {
+    "en": "me",
+    "jp": "私に",
+    "role": "目的語"
+   },
+   {
+    "en": "to wait",
+    "jp": "待つように",
+    "role": "その他"
+   }
+  ],
+  "jp": "彼女は私に待つように言った。",
+  "point": "tell+人+to+原形=「人に~するよう言う」",
+  "explain": "「私に→待つように→言った」→「told→me→to wait」。",
+  "id": 96
+ },
+ {
+  "level": "発展",
+  "pattern": "ask+人+to",
+  "en": "I asked him to come.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "asked",
+    "jp": "頼んだ",
+    "role": "動詞"
+   },
+   {
+    "en": "him",
+    "jp": "彼に",
+    "role": "目的語"
+   },
+   {
+    "en": "to come",
+    "jp": "来るように",
+    "role": "その他"
+   }
+  ],
+  "jp": "私は彼に来るように頼んだ。",
+  "point": "ask+人+to+原形=「人に~を頼む」",
+  "explain": "「彼に→来るように→頼んだ」→「asked→him→to come」。",
+  "id": 97
+ },
+ {
+  "level": "発展",
+  "pattern": "疑問詞+to(how to)",
+  "en": "I know how to swim.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "know",
+    "jp": "知っている",
+    "role": "動詞"
+   },
+   {
+    "en": "how to swim",
+    "jp": "泳ぎ方を",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は泳ぎ方を知っている。",
+  "point": "how to+原形=「~の仕方」",
+  "explain": "how to swim でひとかたまり「泳ぎ方」。",
+  "id": 98
+ },
+ {
+  "level": "発展",
+  "pattern": "疑問詞+to(what to)",
+  "en": "I don't know what to do.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "don't know",
+    "jp": "わからない",
+    "role": "動詞"
+   },
+   {
+    "en": "what to do",
+    "jp": "何をすべきか",
+    "role": "目的語"
+   }
+  ],
+  "jp": "私は何をすべきかわからない。",
+  "point": "what to ~=「何を~すべきか」",
+  "explain": "what to do でひとかたまり「何をすべきか」。",
+  "id": 99
+ },
+ {
+  "level": "発展",
+  "pattern": "分詞(現在分詞・前置)",
+  "en": "Look at the sleeping baby.",
+  "blocks": [
+   {
+    "en": "Look at",
+    "jp": "見て",
+    "role": "動詞"
+   },
+   {
+    "en": "the sleeping baby",
+    "jp": "眠っている赤ちゃんを",
+    "role": "目的語"
+   }
+  ],
+  "jp": "眠っている赤ちゃんを見て。",
+  "point": "分詞1語は名詞の前(sleeping baby)",
+  "explain": "「眠っている→赤ちゃん」。1語の分詞は名詞の前。長い説明は後ろから（次の文と比較）。",
+  "id": 100
+ },
+ {
+  "level": "発展",
+  "pattern": "分詞(過去分詞・前置)",
+  "en": "This is a used car.",
+  "blocks": [
+   {
+    "en": "This",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "a used car",
+    "jp": "中古車",
+    "role": "補語"
+   }
+  ],
+  "jp": "これは中古車だ。",
+  "point": "過去分詞1語も名詞の前(used car=使われた車)",
+  "explain": "used(使われた)が car を前から修飾して「中古車」。",
+  "id": 101
+ },
+ {
+  "level": "発展",
+  "pattern": "分詞(過去分詞・後置)",
+  "en": "This is a book written by him.",
+  "blocks": [
+   {
+    "en": "This",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "a book",
+    "jp": "本",
+    "role": "補語"
+   },
+   {
+    "en": "written by him",
+    "jp": "彼によって書かれた",
+    "role": "その他"
+   }
+  ],
+  "jp": "これは彼によって書かれた本だ。",
+  "point": "名詞+過去分詞…=後ろから「~された」と修飾",
+  "explain": "「彼によって書かれた→本」→英語は「a book→written by him」。分詞のかたまりが名詞の後ろ。語順が逆。",
+  "id": 102
+ },
+ {
+  "level": "発展",
+  "pattern": "分詞(過去分詞・後置)",
+  "en": "The language spoken here is English.",
+  "blocks": [
+   {
+    "en": "The language",
+    "jp": "言語は",
+    "role": "主語"
+   },
+   {
+    "en": "spoken here",
+    "jp": "ここで話されている",
+    "role": "その他"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "English",
+    "jp": "英語",
+    "role": "補語"
+   }
+  ],
+  "jp": "ここで話されている言語は英語だ。",
+  "point": "名詞+過去分詞=後置修飾",
+  "explain": "「ここで話されている→言語」→「The language→spoken here」。主語を後ろから説明。",
+  "id": 103
+ },
+ {
+  "level": "発展",
+  "pattern": "分詞(現在分詞・後置)",
+  "en": "Look at the boy playing tennis.",
+  "blocks": [
+   {
+    "en": "Look at",
+    "jp": "見て",
+    "role": "動詞"
+   },
+   {
+    "en": "the boy",
+    "jp": "少年を",
+    "role": "目的語"
+   },
+   {
+    "en": "playing tennis",
+    "jp": "テニスをしている",
+    "role": "その他"
+   }
+  ],
+  "jp": "テニスをしている少年を見て。",
+  "point": "名詞+~ing=後ろから修飾",
+  "explain": "「テニスをしている→少年」→「the boy→playing tennis」。",
+  "id": 104
+ },
+ {
+  "level": "発展",
+  "pattern": "関係代名詞(主格 which)",
+  "en": "This is a train which goes to Tokyo.",
+  "blocks": [
+   {
+    "en": "This",
+    "jp": "これは",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "だ",
+    "role": "動詞"
+   },
+   {
+    "en": "a train",
+    "jp": "電車",
+    "role": "補語"
+   },
+   {
+    "en": "which goes to Tokyo",
+    "jp": "東京へ行く",
+    "role": "その他"
+   }
+  ],
+  "jp": "これは東京へ行く電車だ。",
+  "point": "which(もの)+動詞=主格の関係代名詞",
+  "explain": "「東京へ行く→電車」→英語は「a train→which goes to Tokyo」。説明が名詞の後ろ。",
+  "id": 105
+ },
+ {
+  "level": "発展",
+  "pattern": "関係代名詞(主格 that)",
+  "en": "I know a boy that can run fast.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "know",
+    "jp": "知っている",
+    "role": "動詞"
+   },
+   {
+    "en": "a boy",
+    "jp": "少年を",
+    "role": "目的語"
+   },
+   {
+    "en": "that can run fast",
+    "jp": "速く走れる",
+    "role": "その他"
+   }
+  ],
+  "jp": "私は速く走れる少年を知っている。",
+  "point": "that は人にも物にも使える(主格)",
+  "explain": "「速く走れる→少年」→「a boy→that can run fast」。",
+  "id": 106
+ },
+ {
+  "level": "発展",
+  "pattern": "関係代名詞(目的格 which)",
+  "en": "The book which I read was fun.",
+  "blocks": [
+   {
+    "en": "The book",
+    "jp": "本は",
+    "role": "主語"
+   },
+   {
+    "en": "which I read",
+    "jp": "私が読んだ",
+    "role": "その他"
+   },
+   {
+    "en": "was",
+    "jp": "だった",
+    "role": "動詞"
+   },
+   {
+    "en": "fun",
+    "jp": "おもしろい",
+    "role": "補語"
+   }
+  ],
+  "jp": "私が読んだ本はおもしろかった。",
+  "point": "目的格 which(+主語+動詞)。省略可",
+  "explain": "「私が読んだ→本」→「The book→which I read」。主語を後ろから説明。",
+  "id": 107
+ },
+ {
+  "level": "発展",
+  "pattern": "接触節(関係代名詞の省略)",
+  "en": "The cake you made was great.",
+  "blocks": [
+   {
+    "en": "The cake",
+    "jp": "ケーキは",
+    "role": "主語"
+   },
+   {
+    "en": "you made",
+    "jp": "あなたが作った",
+    "role": "その他"
+   },
+   {
+    "en": "was",
+    "jp": "だった",
+    "role": "動詞"
+   },
+   {
+    "en": "great",
+    "jp": "すばらしい",
+    "role": "補語"
+   }
+  ],
+  "jp": "あなたが作ったケーキはすばらしかった。",
+  "point": "目的格の関係代名詞は省略できる(接触節)",
+  "explain": "「あなたが作った→ケーキ」→英語は「The cake→you made」。that/which を省き、名詞のすぐ後に〈主語+動詞〉。",
+  "id": 108
+ },
+ {
+  "level": "発展",
+  "pattern": "関係代名詞(目的格 who)",
+  "en": "The man who I met was kind.",
+  "blocks": [
+   {
+    "en": "The man",
+    "jp": "男性は",
+    "role": "主語"
+   },
+   {
+    "en": "who I met",
+    "jp": "私が会った",
+    "role": "その他"
+   },
+   {
+    "en": "was",
+    "jp": "だった",
+    "role": "動詞"
+   },
+   {
+    "en": "kind",
+    "jp": "親切",
+    "role": "補語"
+   }
+  ],
+  "jp": "私が会った男性は親切だった。",
+  "point": "人の目的格は who(m)/that",
+  "explain": "「私が会った→男性」→「The man→who I met」。",
+  "id": 109
+ },
+ {
+  "level": "発展",
+  "pattern": "間接疑問(where)",
+  "en": "I don't know where he lives.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "don't know",
+    "jp": "わからない",
+    "role": "動詞"
+   },
+   {
+    "en": "where",
+    "jp": "どこに",
+    "role": "疑問"
+   },
+   {
+    "en": "he",
+    "jp": "彼が",
+    "role": "主語"
+   },
+   {
+    "en": "lives",
+    "jp": "住んでいるか",
+    "role": "動詞"
+   }
+  ],
+  "jp": "私は彼がどこに住んでいるかわからない。",
+  "point": "間接疑問は〈疑問詞+主語+動詞〉(ふつうの語順)",
+  "explain": "Where does he live? が文中に入ると where he lives に。do が消え、主語+動詞の順に戻る。",
+  "id": 110
+ },
+ {
+  "level": "発展",
+  "pattern": "間接疑問(what)",
+  "en": "Tell me what you want.",
+  "blocks": [
+   {
+    "en": "Tell me",
+    "jp": "教えて",
+    "role": "動詞"
+   },
+   {
+    "en": "what",
+    "jp": "何が",
+    "role": "疑問"
+   },
+   {
+    "en": "you",
+    "jp": "あなたが",
+    "role": "主語"
+   },
+   {
+    "en": "want",
+    "jp": "欲しいか",
+    "role": "動詞"
+   }
+  ],
+  "jp": "何が欲しいか教えて。",
+  "point": "what+主語+動詞",
+  "explain": "What do you want? → what you want。疑問詞の後は主語+動詞。",
+  "id": 111
+ },
+ {
+  "level": "発展",
+  "pattern": "間接疑問(who)",
+  "en": "Do you know who that man is?",
+  "blocks": [
+   {
+    "en": "Do you know",
+    "jp": "知っていますか",
+    "role": "動詞"
+   },
+   {
+    "en": "who",
+    "jp": "だれか",
+    "role": "疑問"
+   },
+   {
+    "en": "that man",
+    "jp": "あの男性が",
+    "role": "主語"
+   },
+   {
+    "en": "is",
+    "jp": "である",
+    "role": "動詞"
+   }
+  ],
+  "jp": "あの男性がだれか知っていますか？",
+  "point": "who+主語+動詞(is は最後)",
+  "explain": "Who is that man? が文中で who that man is に。動詞 is が後ろに回る。",
+  "id": 112
+ },
+ {
+  "level": "発展",
+  "pattern": "仮定法(if)",
+  "en": "If I were a bird, I could fly.",
+  "blocks": [
+   {
+    "en": "If",
+    "jp": "もし",
+    "role": "その他"
+   },
+   {
+    "en": "I",
+    "jp": "私が",
+    "role": "主語"
+   },
+   {
+    "en": "were",
+    "jp": "〜だったら",
+    "role": "動詞"
+   },
+   {
+    "en": "a bird",
+    "jp": "鳥",
+    "role": "補語"
+   },
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "could fly",
+    "jp": "飛べるのに",
+    "role": "動詞"
+   }
+  ],
+  "jp": "もし私が鳥だったら、飛べるのに。",
+  "point": "If 主語 were ~, 主語 could …（現実と違う仮定）",
+  "explain": "現実に反する仮定。be動詞は主語に関係なく were、後半は could/would+原形。",
+  "id": 113
+ },
+ {
+  "level": "発展",
+  "pattern": "仮定法(I wish)",
+  "en": "I wish I could fly.",
+  "blocks": [
+   {
+    "en": "I wish",
+    "jp": "〜ならいいのに",
+    "role": "その他"
+   },
+   {
+    "en": "I",
+    "jp": "私が",
+    "role": "主語"
+   },
+   {
+    "en": "could fly",
+    "jp": "飛べたら",
+    "role": "動詞"
+   }
+  ],
+  "jp": "飛べたらいいのに。",
+  "point": "I wish 主語 could ~=「~できたらいいのに」",
+  "explain": "実現しない願望。wish の後は could/過去形を使う。",
+  "id": 114
+ },
+ {
+  "level": "発展",
+  "pattern": "感嘆文(What)",
+  "en": "What a beautiful flower!",
+  "blocks": [
+   {
+    "en": "What",
+    "jp": "なんて",
+    "role": "疑問"
+   },
+   {
+    "en": "a beautiful flower",
+    "jp": "美しい花なんだ",
+    "role": "補語"
+   }
+  ],
+  "jp": "なんて美しい花なんだ！",
+  "point": "What a+形容詞+名詞!=「なんて~な…!」",
+  "explain": "感動を表す。What a の後に〈形容詞+名詞〉。",
+  "id": 115
+ },
+ {
+  "level": "発展",
+  "pattern": "感嘆文(How)",
+  "en": "How beautiful it is!",
+  "blocks": [
+   {
+    "en": "How",
+    "jp": "なんて",
+    "role": "疑問"
+   },
+   {
+    "en": "beautiful",
+    "jp": "美しい",
+    "role": "補語"
+   },
+   {
+    "en": "it is",
+    "jp": "それは",
+    "role": "主語"
+   }
+  ],
+  "jp": "それはなんて美しいんだ！",
+  "point": "How+形容詞+主語+動詞!",
+  "explain": "How の後は形容詞(または副詞)。What a ~ との違いに注意。",
+  "id": 116
+ },
+ {
+  "level": "発展",
+  "pattern": "付加疑問",
+  "en": "You like music, don't you?",
+  "blocks": [
+   {
+    "en": "You like music",
+    "jp": "音楽が好きだよね",
+    "role": "その他"
+   },
+   {
+    "en": "don't you",
+    "jp": "ですよね",
+    "role": "疑問"
+   }
+  ],
+  "jp": "あなたは音楽が好きですよね？",
+  "point": "肯定文,+否定の短縮形?=「~ですよね」",
+  "explain": "確認の付加疑問。肯定文には don't you? のように否定形を付ける。",
+  "id": 117
+ },
+ {
+  "level": "発展",
+  "pattern": "原形不定詞(help)",
+  "en": "I helped him cook.",
+  "blocks": [
+   {
+    "en": "I",
+    "jp": "私は",
+    "role": "主語"
+   },
+   {
+    "en": "helped",
+    "jp": "手伝った",
+    "role": "動詞"
+   },
+   {
+    "en": "him",
+    "jp": "彼が",
+    "role": "目的語"
+   },
+   {
+    "en": "cook",
+    "jp": "料理するのを",
+    "role": "その他"
+   }
+  ],
+  "jp": "私は彼が料理するのを手伝った。",
+  "point": "help+人+原形=「人が~するのを手伝う」",
+  "explain": "help の後は to なしの原形でもよい。「彼が→料理するのを→手伝った」→「helped→him→cook」。",
+  "id": 118
+ }
+]
